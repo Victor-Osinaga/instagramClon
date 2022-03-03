@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+body #registro {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+body #registro .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 20px 0;
+  gap: 10px;
+}
+
+body #registro .container .container__iphone {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #registro .container .container__iphone picture .marcoiphone {
+  max-width: 405px;
+}
+
+body #registro .container .container__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 340px;
+  text-align: center;
+}
+
+body #registro .container .container__right .container__div {
+  background: #fff;
+}
+
+body #registro .container .container__right .container__div .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 12px;
+  -webkit-box-shadow: .3px .3px 1px gray, -.3px -.3px 1px gray;
+          box-shadow: .3px .3px 1px gray, -.3px -.3px 1px gray;
+}
+
+body #registro .container .container__right .container__div .form .logo__img {
+  width: 175px;
+  margin: 20px auto 20px;
+}
+
+body #registro .container .container__right .container__div .form .form__item {
+  margin-bottom: 20px;
+}
+
+body #registro .container .container__right .container__div .form .form__item .form__input {
+  margin-bottom: 10px;
+  width: 80%;
+  height: 35px;
+  border: none;
+  -webkit-box-shadow: .3px .3px 1px gray, -.3px -.3px 1px gray;
+          box-shadow: .3px .3px 1px gray, -.3px -.3px 1px gray;
+  padding-left: 10px;
+  font-size: 11px;
+}
+
+body #registro .container .container__right .container__div .form .form__item .form__input ::-webkit-input-placeholder {
+  font-size: 11px;
+}
+
+body #registro .container .container__right .container__div .form .form__item .form__input :-ms-input-placeholder {
+  font-size: 11px;
+}
+
+body #registro .container .container__right .container__div .form .form__item .form__input ::-ms-input-placeholder {
+  font-size: 11px;
+}
+
+body #registro .container .container__right .container__div .form .form__item .form__input ::placeholder {
+  font-size: 11px;
+}
+
+body #registro .container .container__right .container__div .form .form__item .container__buttom {
+  width: 80%;
+  height: 30px;
+  margin: 0 auto -5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(0, 149, 246, 0.3);
+}
+
+body #registro .container .container__right .container__div .form .form__item .container__buttom a {
+  text-decoration: none;
+}
+
+body #registro .container .container__right .container__div .form .form__item .container__buttom a h5 {
+  font-size: 14px;
+  color: #fff;
+}
+
+body #registro .container .container__right .container__div .form .form__item--margin {
+  margin-bottom: 10px;
+}
+
+body #registro .container .container__right .container__div .form .linea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+body #registro .container .container__right .container__div .form .linea div {
+  width: 110px;
+  -webkit-box-shadow: .2px .2px 1px gray;
+          box-shadow: .2px .2px 1px gray;
+  height: 1px;
+}
+
+body #registro .container .container__right .container__div .form .linea div span {
+  color: gray;
+  margin: 0 15px;
+}
+
+body #registro .container .container__right .container__div .form .iniciarConFacebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #registro .container .container__right .container__div .form .iniciarConFacebook a {
+  color: #385185;
+  font-weight: 500;
+  font-size: 14px;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+body #registro .container .container__right .container__div .form .olvidado a {
+  color: #00376b;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+body #registro .container .container__right .container__div .registrate {
+  -webkit-box-shadow: .3px .3px 1px gray, -.3px -.3px 1px gray;
+          box-shadow: .3px .3px 1px gray, -.3px -.3px 1px gray;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fff;
+}
+
+body #registro .container .container__right .container__div .registrate a {
+  color: #0095f6;
+  text-decoration: none;
+}
+
+body #registro .container .container__right .container__div .descargaApp .subtext {
+  margin: 10px 0;
+}
+
+body #registro .container .container__right .container__div .descargaApp .stores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body #registro .container .container__right .container__div .descargaApp .stores a {
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+body #registro .container .container__right .container__div .descargaApp .stores a span {
+  font-size: 15px;
+  display: block;
+}
+
+body #registro .container .container__right .container__div .descargaApp .stores .playStore, body #registro .container .container__right .container__div .descargaApp .stores .appStore {
+  padding: 0 5px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 5px;
+  padding: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #registro .container .container__right .container__div .descargaApp .stores .playStore .div__img .svg__store, body #registro .container .container__right .container__div .descargaApp .stores .appStore .div__img .svg__store, body #registro .container .container__right .container__div .descargaApp .stores .appStore .div__img .svg__apple {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+body #footer {
+  width: 100%;
+}
+
+body #footer .container__footer {
+  width: 75%;
+  margin: 0 auto;
+}
+
+body #footer .container__footer .ul__first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+body #footer .container__footer .ul__first li {
+  color: gray;
+  list-style: none;
+  margin: 6px 7px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+body #footer .container__footer .ul__first li :hover {
+  cursor: pointer;
+}
+
+body #footer .container__footer .ul__second {
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=stylesInstagram.css.map */
