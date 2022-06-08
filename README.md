@@ -5,4 +5,5 @@ Página clon login de Instagram (FRONT-END).
  - SASS
  - RESPONSIVE DESIGN
  - METODOLOGIA BEM
-Desarrollada por Victor Osinaga.
+  
+# Desarrollada por Victor Osinaga.
